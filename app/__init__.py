@@ -7,11 +7,13 @@ import logging
 from logging.handlers import SMTPHandler
 from logging.handlers import RotatingFileHandler
 import os
+from flask_mail import Mail
 
 app = Flask (__name__) # __name__ это имя текщего файла (__init.py__ ?) от этого пути Фласк будет отталкиватся и находить другие файлы (шалоны цсс и тд)
 app.config.from_object(Configuration)
 db = SQLAlchemy(app)
 migrate = Migrate(app, db)
+mail = Mail(app)
 login = LoginManager(app)
 login.login_view = 'login'
 
