@@ -72,3 +72,18 @@ Traceback (most recent call last):
     cursor.execute(statement, parameters)
 sqlalchemy.exc.IntegrityError: (sqlite3.IntegrityError) UNIQUE constraint failed: user.username [SQL: 'UPDATE user SET username=?, about_me=? WHERE user.id = ?'] [parameters: ('susan', 'My life fo Aur', 3)] (Background on this error at: http://sqlalche.me/e/gkpj)
 2019-01-14 11:46:04,612 INFO: Microblog startup [in C:\Users\rokotyansky.n.1\Documents\Projects\micro-blog\app\__init__.py:44]
+2019-01-15 11:24:45,711 INFO: Microblog startup [in C:\Users\rokotyansky.n.1\Documents\Projects\micro-blog\app\__init__.py:44]
+2019-01-15 11:25:09,783 INFO: Microblog startup [in C:\Users\rokotyansky.n.1\Documents\Projects\micro-blog\app\__init__.py:44]
+2019-01-15 11:26:55,564 INFO: Microblog startup [in C:\Users\rokotyansky.n.1\Documents\Projects\micro-blog\app\__init__.py:44]
+2019-01-15 11:30:16,285 INFO: Microblog startup [in C:\Users\rokotyansky.n.1\Documents\Projects\micro-blog\app\__init__.py:44]
+2019-01-15 11:31:31,430 INFO: Microblog startup [in C:\Users\rokotyansky.n.1\Documents\Projects\micro-blog\app\__init__.py:44]
+2019-01-15 11:32:35,903 INFO: Microblog startup [in C:\Users\rokotyansky.n.1\Documents\Projects\micro-blog\app\__init__.py:44]
+2019-01-15 11:35:39,677 INFO: Microblog startup [in C:\Users\rokotyansky.n.1\Documents\Projects\micro-blog\app\__init__.py:44]
+2019-01-15 11:38:17,542 INFO: Microblog startup [in C:\Users\rokotyansky.n.1\Documents\Projects\micro-blog\app\__init__.py:44]
+2019-01-15 11:39:06,550 INFO: Microblog startup [in C:\Users\rokotyansky.n.1\Documents\Projects\micro-blog\app\__init__.py:44]
+2019-01-15 13:44:20,721 INFO: Microblog startup [in C:\Users\rokotyansky.n.1\Documents\Projects\micro-blog\app\__init__.py:44]
+2019-01-15 13:46:06,855 INFO: Microblog startup [in C:\Users\rokotyansky.n.1\Documents\Projects\micro-blog\app\__init__.py:44]
+2019-01-15 13:48:29,397 INFO: Microblog startup [in C:\Users\rokotyansky.n.1\Documents\Projects\micro-blog\app\__init__.py:44]
+2019-01-15 13:48:38,505 INFO: Microblog startup [in C:\Users\rokotyansky.n.1\Documents\Projects\micro-blog\app\__init__.py:44]
+2019-01-15 13:48:50,967 INFO: Microblog startup [in C:\Users\rokotyansky.n.1\Documents\Projects\micro-blog\app\__init__.py:44]
+2019-01-15 13:53:59,209 INFO: Microblog startup [in C:\Users\rokotyansky.n.1\Documents\Projects\micro-blog\app\__init__.py:44]
